@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Survey Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Survey Form</h1>
+  <form id="form">
+    <div class="form-lera">
+      <label for="fname" id="label-fname">
+        First Name
+      </label>
+      <input type="text" id="fname" placeholder="Enter your First name" />
+    </div>
+
+    <div class="form-lera">
+      <label for="lname" id="label-lname">
+        Last Name
+      </label>
+      <input type="text" id="lname" placeholder="Enter your Last name" />
+    </div>
+
+    <div class="form-lera">
+      <label for="DOB" id="label-dob">
+        Date of Birth
+      </label>
+      <input type="date" id="birthday" name="birthday">
+    </div>
+
+    <div class="form-lera">
+      <label for="country" id="label-country">
+        Country
+      </label>
+      <select name="role" id="role">
+        <option value="Select">Select</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+        <option value="uk">UK</option>
+        <option value="china">China</option>
+        <option value="japan">Japan</option>
+        <option value="russia">Russia</option>
+      </select>
+    </div>
+
+    <div class="form-lera">
+      <label for="gender" id="label-gender">
+        Gender
+      </label>
+
+      <input type="checkbox" name="inp">Male</input></label>
+      <input type="checkbox" name="inp">Female</input></label>
+    </div>
+
+    <div class="form-lera">
+      <label for="profession" id="label-profession">
+        Profession
+      </label>
+      <select name="role" id="role">
+        <option value="Select">Select</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="parent">Intern</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-lera">
+      <label for="email" id="label-email">
+        Email
+      </label>
+      <input type="email" id="email" placeholder="Enter your email" />
+    </div>
+
+    <div class="form-lera">
+      <label for="mobile-number" id="label-mobile-number">
+        Mobile Number
+      </label>
+      <input type="mobile-number" id="mobile-number" placeholder="Enter your Mobile Number" />
+    </div>
+
+    <button>
+      <input type="button" onclick="myFunction()" value="Submit">
+    </button>
+    
+    <button>
+      <input type="button" onclick="myFunction()" value="Reset">
+    </button>
+  </form>
+
+
+  <script src="script.js"></script>
+
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
